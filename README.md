@@ -41,12 +41,12 @@ Install required packages:
 train_CDCN.py file. We must fix that problem.
 - Secondly, comment line 246 in train_CDCN.py file and add the following lines to 246
 	 	
-	device=torch.device("cpu")
-        model.to(device)
+		device=torch.device("cpu")
+        	model.to(device)
 	
 - Finally, add following codes to line 203
 	
-	os.environ["CUDA_VISIBLE_DEVICES"]=""
+		os.environ["CUDA_VISIBLE_DEVICES"]=""
 ## 4.2. Build Train File 
 
 	cd CDCN/CVPR2020_paper_codes
