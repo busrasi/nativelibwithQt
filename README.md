@@ -35,5 +35,19 @@ Install required packages:
 	pip install opencv-python
 	pip install imgaug
 	pip --no-cache-dir install sklearn
-  # 4. Building 
-  First of all this repository have a indentation error in line 242 of train_CDCN.py file. We must fix that problem.
+# 4. Building 
+## 4.1. Fix Bugs 
+- First of all, this repository have a indentation error in line 242 of /CDCN/CVPR2020_paper_codes/
+train_CDCN.py file. We must fix that problem.
+- Secondly, comment line 246 in train_CDCN.py file and add the following lines to 246
+	 	
+	device=torch.device("cpu")
+        model.to(device)
+	
+- Finally, add following codes to line 203
+	
+	os.environ["CUDA_VISIBLE_DEVICES"]=""
+## 4.2. Build Train File 
+
+	cd CDCN/CVPR2020_paper_codes
+	python3 train_CDCN.py
