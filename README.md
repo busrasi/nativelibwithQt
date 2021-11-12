@@ -25,20 +25,15 @@ Download:
     source cdcn-env/bin/activate
 
     
-# 4.Install essential packages that will be used by CDCN building
+# 3.Install essential packages that will be used by CDCN building
 
 Install required packages:
 
-     sudo apt-get install
-	   
-     cd CDCN
-	sudo apt install python3.8-venv
-	   python3 -m venv cdcn-env
-	   source cdcn-env/bin/activate
-	   pip3 --no-cache-dir install torchvision
-	   pip install matplotlib
-	   pip3 --no-cache-dir install pandas
-	   pip install opencv-python
-	   pip install imgaug
-	   pip --no-cache-dir install sklearn
+	sudo apt-get install
+      	pip3 --no-cache-dir install torchvision
+	pip install matplotlib
+	pip3 --no-cache-dir install pandas
+	pip install opencv-python
+	pip install imgaug
+	pip --no-cache-dir install sklearn
   
