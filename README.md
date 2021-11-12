@@ -4,7 +4,6 @@ This document provides a procedure to train an CDCN model to detect liveness fro
 
 # 2. Preparing the enviroment 
 
-
 ## 2.1.Get and install CDCN
 Download:  
 
@@ -36,4 +35,5 @@ Install required packages:
 	pip install opencv-python
 	pip install imgaug
 	pip --no-cache-dir install sklearn
-  
+  # 4. Building 
+  First of all this repository have a indentation error in line 242 of train_CDCN.py file. We must fix that problem.
