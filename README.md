@@ -47,7 +47,8 @@ train_CDCN.py file. We must fix that problem.
 - Finally, add following codes to line 203
 	
 		os.environ["CUDA_VISIBLE_DEVICES"]=""
-## 4.2. Build Train File 
+		
+## 4.2. Building Training File 
 
 	cd CDCN/CVPR2020_paper_codes
 	python3 train_CDCN.py
