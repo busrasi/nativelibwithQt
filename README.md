@@ -30,7 +30,7 @@ Download:
 Install required packages:
 
 	sudo apt-get install
-      	pip3 --no-cache-dir install torchvision
+	pip3 --no-cache-dir install torchvision
 	pip install matplotlib
 	pip3 --no-cache-dir install pandas
 	pip install opencv-python
