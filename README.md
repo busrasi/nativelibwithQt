@@ -19,15 +19,15 @@ Download:
 ### 2.2.1.Download python3.8 -venv to create environment:
 You must be in  ../CDCN-Model folder.   
    
-   sudo apt install python3.8-venv
+   	sudo apt install python3.8-venv
     
 ### 2.2.2.Create python environment
 
-    python3 -m venv cdcn-env
+	python3 -m venv cdcn-env
 
 ### 2.2.3.Activate python environment
  
-    source cdcn-env/bin/activate
+    	source cdcn-env/bin/activate
 
     
 # 3.Install essential packages that will be used by CDCN building
