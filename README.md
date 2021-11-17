@@ -41,6 +41,10 @@ Install required packages:
 	pip install opencv-python
 	pip install imgaug
 	pip --no-cache-dir install sklearn
+
+You can install all required packages with following command.
+
+	pip install -r requirements.txt
 	
 # 4. Building 
 ## 4.1. Fix Bugs 
