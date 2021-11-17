@@ -50,7 +50,7 @@ You can install all required packages with following command.
 ## 4.1. Fix Bugs 
 - First of all, this repository have an indentation error in line 242 of /CDCN/CVPR2020_paper_codes/
 train_CDCN.py file. We must fix that problem.
-- Secondly, comment line 246 in train_CDCN.py file and add the following are to force CPU to be used :
+- Secondly, line 246 is "model = model.cuda()" in train_CDCN.py file and we changed to be comment line this line and add the following are to force CPU to be used  :
 	 	
 		device=torch.device("cpu")
         	
