@@ -37,6 +37,7 @@ Install required packages:
 	pip3 --no-cache-dir install torchvision
 	pip install matplotlib
 	pip3 --no-cache-dir install pandas
+	pip install scikit-build
 	pip install opencv-python
 	pip install imgaug
 	pip --no-cache-dir install sklearn
