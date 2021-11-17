@@ -27,7 +27,7 @@ You must be in  ../CDCN-Model folder.
 
 ### 2.2.3.Activate python environment
  
-    	source cdcn-env/bin/activate
+    source cdcn-env/bin/activate
 
     
 # 3.Install essential packages that will be used by CDCN building
