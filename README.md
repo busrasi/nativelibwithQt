@@ -64,3 +64,55 @@ train_CDCN.py file. We must fix that problem.
 
 	cd CDCN/CVPR2020_paper_codes
 	python3 train_CDCN.py
+
+# 5. Create Map Images
+In this step, we realize that we need map_images, so we will create mapped images from our dataset. We will use repository of PRNet-Depth-Generation to generate mapped images.
+
+## 5.1. Preparing the enviroment
+
+### 5.1.1 Get and install PRNet-Depth-Generation
+Create a main folder for project:
+	
+	mkdir PRNet-Map-Images-Generation 
+
+Download:  
+	
+	cd PRNet-Map-Images-Generation 
+	git clone https://github.com/clks-wzz/PRNet-Depth-Generation.git
+	
+### 5.1.2 Create a folder for Python virtual environments 
+#### 5.1.2.1. Download python3.8 -venv to create environment:
+You must be in  ./PRNet-Map-Images-Generation folder.   
+   
+   	sudo apt install python3.8-venv
+    
+#### 5.1.2.2. Create python environment
+
+	python3 -m venv prnet-env
+
+### 5.1.2.3 Activate python environment
+ 
+    source prnet-env/bin/activate
+
+    
+## 5.2. Install essential packages that will be used by PRNet-Depth-Generation building
+
+Install required packages:
+
+	pip install numpy
+	pip install scikit-image
+	pip install scipy
+	pip install opencv-python
+
+You can install all required packages with following command.
+
+	pip install -r requirements.txt
+	
+## 5.3. Building
+	
+	cd PRNet-Map-Images-Generation/PRNet-Depth-Generation
+	python3 Generate_Depth_Image.py
+
+NOTE: In this, spot we have some errors about building.
+	
+
